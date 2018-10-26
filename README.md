@@ -32,26 +32,31 @@ This course teaches using the TypeScript language combined with existing knowled
 * Transpiling
 * TypeScript Configuration files
 * Task Runners
+* Linter
 
 ### **TypeScript Types and Operators**
 * TypeScript Comments
 * Strong Typing with TypeScript
 * Type Shapes
-* Types available in TypeScript
+* Types Available in TypeScript
 * TypeScript Operators
 * Type Aliases
 * Inferred Typing
 * Type Compatibility
 * Duplicate Identifiers
 
+### **Generics**
+* What's a Generic?
+* Why do we need Generics?
+* Writing a Generic Type
+* Using a Generic Type
+
 ### **TypeScript Variables and Scope**
 * Declaring variables in TypeScript vs JavaScript
-* var, let, const keywords
-* Function vs Block Level Scope
+* let and const keywords
+* Block Level Scope
 * Type Annotations
 * Scoping Rules
-* Global Scope
-* Hoisting
 * Shadowing
 * Understanding Boxing and UnBoxing
 * Boolean Types
@@ -62,7 +67,7 @@ This course teaches using the TypeScript language combined with existing knowled
 * Template Literals
 * Any Types
 * Type Assertion
-* Generics
+* Generics and Variables
 
 ### **TypeScript Code Blocks, Conditions, and Loops**
 * Code Blocks
@@ -73,11 +78,14 @@ This course teaches using the TypeScript language combined with existing knowled
 * Iterating Across All Array Elements
 * for of Loops
 * Tuple Types
+* Object Types
 * Array Spread and Destructuring
-* Generics and Arrays
+* Arrays and Generics
+* Object Spread and Dstructuring
 
 ### **TypeScript Functions**
 * function Declarations
+* Arrow Functions
 * Typing Functions
 * Optional and Default Parameters
 * Rest Parameters with Spread Syntax
@@ -87,7 +95,6 @@ This course teaches using the TypeScript language combined with existing knowled
 * never Types
 * Function Overloads
  
-
 ### **TypeScript Interfaces, Classes, and Objects**
 * Interfaces
 * Structural Subtyping or Duck Typing
@@ -106,22 +113,25 @@ This course teaches using the TypeScript language combined with existing knowled
 * Static Types
 * Abstract Types
 * Generics and Classes
-* Object Spread and Destructuring
 
 <!-- Day 2 -->
 ### **TypeScript Error Handling**
 * Creating Error Interfaces and Classes
 * throw, try, catch, finally in TypeScript
 
-### **TypeScript and this Keyword**
+### **TypeScript, Configuration and this Keyword**
 * Catching incorrect uses of this keyword
 * noImplicitThis flag
 * this Parameters
+* Revisiting tsconfig.json
+* Revisiting TS Lint Configuration
 
-### **TypeScript Encapsulation**
-* IIFEs and Closures in TypeScript
-* Access Modifiers
-* namespace Keyword
+### **Organizing TypeScript Code**
+* ECMAScript Modules
+* Exporting Identifiers
+* Importing Identifiers
+* Using Defaults
+* Namespaces
 
 ### **TypeScript Prototypical Inheritance**
 * Extending Interfaces
@@ -136,6 +146,7 @@ This course teaches using the TypeScript language combined with existing knowled
 * Using Promises
 * Promise States
 * Promise Methods
+* Promises and Generics
 * Creating a Promise
 * then() and catch() Methods
 * Promise Chaining
@@ -143,10 +154,3 @@ This course teaches using the TypeScript language combined with existing knowled
 * async Functions
 * await Keyword
 * Returned async Promise 
-
-### **TypeScript Modules**
-* Using Modules in TypeScript
-* module Keyword
-* nampespace Keyword
-* export Keyword
-* Dynamic import Expressions
